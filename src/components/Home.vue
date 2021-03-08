@@ -1,6 +1,6 @@
 <template>
   <div class="welcome">
-    <h1>Welcome to coltonwood.com!</h1>
+    <p>coltonwood.com</p>
   </div>
 </template>
 
@@ -13,13 +13,15 @@ export default {
 </script>
 
 <style scoped>
-.h1 {
+p {
   margin: 0;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
 }
 .welcome {
-  height: 100vh;
-  width: 100vw;
   display: flex;
+  height: 100%;
   justify-content: center;
   align-items: center;
 }

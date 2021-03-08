@@ -16,7 +16,14 @@ export default {
 </script>
 
 <style>
+html,body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  height: 100%;
+  background-color: slateblue;
 }
 </style>
