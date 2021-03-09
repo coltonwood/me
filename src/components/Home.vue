@@ -1,6 +1,6 @@
 <template>
-  <div class="welcome">
-    <p>coltonwood.com</p>
+  <div class="flex h-full justify-center items-center">
+    <p class="m-0 text-white text-4xl font-medium">coltonwood.com</p>
   </div>
 </template>
 
@@ -13,16 +13,4 @@ export default {
 </script>
 
 <style scoped>
-p {
-  margin: 0;
-  color: white;
-  font-size: 2rem;
-  font-weight: 500;
-}
-.welcome {
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-}
 </style>
